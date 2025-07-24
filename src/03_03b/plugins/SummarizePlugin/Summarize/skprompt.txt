@@ -21,10 +21,3 @@ Hello
 Summarize this
 {{$input}}
 +++++
-[RESULT FORMAT]
-1. Key Insights:
-   - Insight 1
-   - Insight 2
-2. Summary:
-   - Detailed summary here.
-+++++
