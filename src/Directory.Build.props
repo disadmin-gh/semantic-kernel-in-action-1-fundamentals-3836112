@@ -1,0 +1,5 @@
+<Project>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.60.0" />
+  </ItemGroup>
+</Project>
