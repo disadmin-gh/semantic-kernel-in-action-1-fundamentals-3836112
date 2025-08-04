@@ -1,0 +1,4 @@
+{
+  "azureFunctions.projectSubpath": "04_03",
+  "azureFunctions.deploySubpath": "04_03/bin/Release/net9.0/publish"
+}
