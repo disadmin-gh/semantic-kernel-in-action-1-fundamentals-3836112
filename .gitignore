@@ -2,6 +2,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,visualstudiocode
 
+
+# Ignore all .env files
+.env.*
+*.secret
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -423,3 +428,6 @@ FodyWeavers.xsd
 node_modules
 .tmp
 npm-debug.log
+. e n v 
+ 
+ 
