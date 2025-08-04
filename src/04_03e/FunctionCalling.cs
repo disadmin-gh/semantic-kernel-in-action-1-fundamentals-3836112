@@ -10,10 +10,13 @@ public class FunctionCalling
 {
   public static async Task Execute()
   {
-    var modelDeploymentName = "Gpt4v32k";
+    var modelDeploymentName = "Gpt-4.1";
+    var azureOpenAIEndpoint = "https://dis-openai-0705.openai.azure.com/";
+    var azureOpenAIApiKey = "DJiBCSANPd42dZGBApT4G6CeLD4gRSBeU0KmajSBSXzFbiUFY94SJQQJ99BGACHYHv6XJ3w3AAABACOG1pXm";
+    /**
     var azureOpenAIEndpoint = Environment.GetEnvironmentVariable("AZUREOPENAI_ENDPOINT");
     var azureOpenAIApiKey = Environment.GetEnvironmentVariable("AZUREOPENAI_APIKEY");
-
+  **/
     var builder = Kernel.CreateBuilder();
     builder.Services.AddAzureOpenAIChatCompletion(
         modelDeploymentName,
